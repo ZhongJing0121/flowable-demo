@@ -1,0 +1,18 @@
+server:
+    port: 9426
+
+logging:
+  file:
+    path: ./logs
+
+spring:
+  application:
+    name: go-demo
+  profiles:
+    active: local
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.40.59.111:3306/go-demo?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: zhongjing
+    password: zhongjing0121
